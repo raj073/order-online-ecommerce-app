@@ -11,12 +11,12 @@ const Hero = () => {
           {/* PreTitle */}
           <div className="font-semibold flex items-center uppercase pl-3">
             <div className="w-14 h-1 bg-orange-400 mr-3"></div>
-            ALL New Trend
+            Sales New Trend
             <div className="w-14 h-1 bg-orange-400 ml-3"></div>
           </div>
           {/* Hero Title */}
           <h1 className="text-[50px] leading-[1.5] font-semibold mb-4">
-            FLASH AUTUMN SALE <br />
+            FLASH SALE <br />
             <span className="text-[40px] font-normal">DRESS FOR EVERYONE</span>
           </h1>
           <Link
@@ -27,13 +27,13 @@ const Hero = () => {
             <span className="absolute inset-0 w-full h-full bg-white rounded-md "></span>
             <span className="absolute inset-0 w-full h-full transition-all duration-200 ease-in-out delay-100 bg-purple-600 rounded-md opacity-0 group-hover:opacity-100 "></span>
             <span className="relative text-purple-600 transition-colors duration-200 ease-in-out delay-100 group-hover:text-white">
-              Discover More
+              Explore More
             </span>
           </Link>
         </div>
         {/* image */}
         <div className="hidden md:block lg:block">
-          <img className="h-[464px] w-96" src={woman} alt="" />
+          <img className="h-[400px] w-96" src={woman} alt="" />
         </div>
       </div>
     </section>
