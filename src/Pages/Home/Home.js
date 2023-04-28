@@ -2,12 +2,11 @@ import React, { useContext } from "react";
 import { ProductContext } from "../../Contexts/ProductContext/ProductContext";
 import Product from "../../Components/Product/Product";
 import Hero from "../../Components/Hero/Hero";
-import Loader from "../../Components/Loader/Loader";
 
 const Home = () => {
   const { products } = useContext(ProductContext);
 
-  //Get Men's Clothing or Women's Clothing
+  //Get Men's and Women's Clothing
 
   const filteredProducts = products.filter((item) => {
     return (
@@ -18,7 +17,7 @@ const Home = () => {
   return (
     <div className="font-primary" id="home">
       <Hero></Hero>
-      <section>
+      <section id="product">
         <div className="container mx-auto">
           <div
             className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 

@@ -4,6 +4,17 @@ import DashboardCart from "./DashboardCart";
 
 const Dashboard = () => {
   const { cart, clearAllCart, total, itemAmount } = useContext(CartContext);
+
+  if (cart.length === 0) {
+    return (
+      <div className="flex flex-col items-center justify-center h-screen text-center font-primary text-4xl font-bold">
+        <h1>There is no Item in the Shopping Cart</h1>
+        <br />
+        <span>PLease Keep Shopping</span>
+      </div>
+    );
+  }
+
   return (
     <div className="pt-24 font-primary">
       <div className="mx-auto flex justify-between border-b-2 ml-32 mr-32 mb-10 mt-5">

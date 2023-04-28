@@ -3,6 +3,10 @@ import woman from "../../img/sale.png";
 import { Link } from "react-router-dom";
 
 const Hero = () => {
+  const scroll = (id_name) => {
+    const section = document.querySelector(`#${id_name}`);
+    section.scrollIntoView({ behavior: "smooth", block: "start" });
+  };
   return (
     <section className="h-[600px] bg-hero bg-no-repeat bg-cover bg-center py-32 w-full">
       <div className="container mx-auto flex justify-around h-full">
@@ -20,7 +24,7 @@ const Hero = () => {
             <span className="text-[40px] font-normal">DRESS FOR EVERYONE</span>
           </h1>
           <Link
-            to={"/"}
+            onClick={() => scroll("product")}
             className="w-44 relative inline-flex items-center justify-center px-6 py-3 text-lg font-medium tracking-tighter text-white bg-gray-800 rounded-md group"
           >
             <span className="absolute inset-0 w-full h-full mt-1 ml-1 transition-all duration-300 ease-in-out bg-purple-600 rounded-md group-hover:mt-0 group-hover:ml-0"></span>
