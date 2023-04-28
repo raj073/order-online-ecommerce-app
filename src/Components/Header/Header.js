@@ -120,15 +120,19 @@ const Header = () => {
                 style={{ textUnderlineOffset: "8px" }}
                 className="text-gray-900 font-semibold transition duration-300 focus:outline-none focus:text-purple-600 focus:underline hover:underline hover:text-purple-600"
               >
-                <Link onClick={() => setIsOpen(!isOpen)} to={"/"}>
-                  Cart
-                </Link>{" "}
+                <Link onClick={() => setIsOpen(!isOpen)}>Cart</Link>{" "}
               </li>
               <li
                 style={{ textUnderlineOffset: "8px" }}
                 className="text-gray-900 font-semibold transition duration-300 focus:outline-none focus:text-purple-600 focus:underline hover:underline hover:text-purple-600"
               >
                 <Link to={"/"}>Blog</Link>{" "}
+              </li>
+              <li
+                style={{ textUnderlineOffset: "8px" }}
+                className="text-gray-900 font-semibold transition duration-300 focus:outline-none focus:text-purple-600 focus:underline hover:underline hover:text-purple-600"
+              >
+                <Link to={"/dashboard"}>Dashboard</Link>{" "}
               </li>
             </ul>
 

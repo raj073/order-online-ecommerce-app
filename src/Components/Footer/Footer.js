@@ -17,12 +17,12 @@ const Footer = () => {
       <div className="relative mx-auto max-w-screen-xl px-4 py-5 sm:px-6 lg:px-8 lg:pt-16">
         <div className="absolute top-4 right-4 sm:top-6 sm:right-6 lg:top-8 lg:right-8">
           {/* Tooltip */}
-          <Link onClick={() => scroll("home")} class="group flex relative">
-            <span class="inline-block rounded-full bg-teal-600 p-2 text-white shadow transition hover:bg-teal-500 dark:bg-gray-700 dark:text-teal-300 dark:hover:bg-gray-600 cursor-pointer">
+          <Link onClick={() => scroll("home")} classNames="group flex relative">
+            <span className="inline-block rounded-full bg-teal-600 p-2 text-white shadow transition hover:bg-teal-500 dark:bg-gray-700 dark:text-teal-300 dark:hover:bg-gray-600 cursor-pointer">
               <RxDoubleArrowUp></RxDoubleArrowUp>
             </span>
             <span
-              class="group-hover:opacity-100 transition-opacity bg-gray-800 px-1 text-sm text-gray-100 
+              className="group-hover:opacity-100 transition-opacity bg-gray-800 px-1 text-sm text-gray-100 
             absolute opacity-0 mt-12 text-center"
             >
               Back to Top
