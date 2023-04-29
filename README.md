@@ -18,7 +18,8 @@ A web application named order-online for an e-commerce platform to make an order
 10. Blog page is coming soon
 11. Admin Dashboard is added and from that payment page and cart list product is available and after given the relevant information order can be placed successfully. it is also a protected route.
 12. A responsive footer added below of the page and back to top icon added
-13. Responsive for all.
+13. Cart and Product are sync with context API
+14. Responsive for all.
 
 # Tools and Technologies
 
