@@ -29,9 +29,14 @@ const Dashboard = () => {
     console.log(email, cardName, cardNo, cardExpiry, cardCVC);
 
     form.reset();
-    toast.success("Your Payment has been successfully completed", {
-      position: "top-right",
-    });
+    toast.success(
+      `$ ${parseFloat(total + 5.0).toFixed(
+        2
+      )} USD Payment has been Completed Successfully`,
+      {
+        position: "top-right",
+      }
+    );
     clearAllCart();
   };
 
