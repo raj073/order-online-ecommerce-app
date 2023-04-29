@@ -34,9 +34,12 @@ const ProductDetails = () => {
   const { title, price, description, category, image, rating } = product;
 
   return (
-    <section className="pt-20 pb-12">
+    <section className="py-20">
+      <div className="mx-auto flex justify-between border-b-2 ml-32 mr-32 mb-10 mt-10">
+        <h1 className="font-semibold text-2xl pb-3">Product Detail View</h1>
+      </div>
       <div>
-        <div className="container px-5 py-24 mx-auto">
+        <div className="container px-5 mx-auto">
           <div className="lg:w-full mx-auto flex flex-wrap">
             <img
               alt="ecommerce"
