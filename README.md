@@ -1,70 +1,28 @@
-# Getting Started with Create React App
+Order Online eCommerce Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# About
 
-## Available Scripts
+A web application named order-online for an e-commerce platform to make an order and save time using ReactJS.
 
-In the project directory, you can run:
+# Features and Functionalities
 
-### `npm start`
+1. This is a web application for an e-commerce platform to make an order and save time
+2. A Responsive Navbar where you'll find all the menu options and navigate to a dynamic page
+3. Sign in page includes Google and Github Sign in along with firebase user SignIn
+4. Sign up also includes Google and Github Sign up along with firebase useremail, Name, photoURL SignUp Method
+5. Home Page includes a banner with extra features
+6. Product page includes men's and women's clothing where user can add a product to a cart, increase the quantity, decrease the quantity, add multiple product and view the total price
+7. Product detail page includes detail of the product history and user can add to cart the product after viewing the product
+8. Note that: Product Detail page is a protected route and in order to go the Product detail route you should login the application.
+9. user can click the cart icon to see the cart list item of the sidebar of the added product
+10. Blog page is coming soon
+11. Admin Dashboard is added and from that payment page and cart list product is available and after given the relevant information order can be placed successfully. it is also a protected route.
+12. A responsive footer added below of the page and back to top icon added
+13. Responsive for all.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+# Tools and Technologies
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+1. This is a single page application using reactjs, tailwind css v3, html, javaScript
+2. Google Firebase is being used for Authentication purpose
+3. We have implemented react router dom, context api, private router etc.
+4. Product json is available in public folder
